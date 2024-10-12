@@ -1,0 +1,49 @@
+ion-toolbar {
+  --background: rgb(147, 5, 112); // Asegura que el fondo del toolbar sea negro
+}
+
+ion-title {
+  color: rgb(253, 253, 248); // Cambia el color del título a amarillo
+  font-size: 24px; // Ajusta el tamaño de fuente según sea necesario
+}
+
+ion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; // Asegura que el contenido ocupe toda la altura
+
+  /* Agregar margen y padding para asegurarse de que el marco sea visible */
+  padding: 20px; // Espacio interno para evitar que el contenido se pegue al borde
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); // Sombra para destacar el marco
+}
+
+ion-card {
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+ion-icon {
+  color: rgb(13, 13, 13); // Cambia el color del ícono a amarillo
+}
+
+ion-button {
+  background-color: purple !important; // Forzar el color de fondo a púrpura
+  color: white !important; // Forzar el color del texto a blanco
+  border: 2px solid purple !important; // Forzar el borde a amarillo
+  border-radius: 8px !important; // Forzar el radio de las esquinas
+
+  &:hover {
+    background-color: darkviolet !important; // Forzar el color de fondo al pasar el cursor
+  }
+}
+
+
+
+
+
+
+
